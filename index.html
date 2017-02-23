@@ -8,30 +8,38 @@
 <body>
 
   <header>
-    <section>
-      <button>Hamburger Menu</button>
-      <input type="text" placeholder="Search for a job, task, or resume"/>
-      <button>Image 1</button>
-      <button>Image 2</button>
-      <button>Image 3</button>
+
+    <section class="header-menu">
+      <button class="header-menu-button">Ham Menu</button>
+      <input type="text" placeholder="Search for a job, task, or resume" class="header-menu-input" />
+      <button class="header-menu-button">Icon</button>
+      <button class="header-menu-button">Icon</button>
+      <button class="header-menu-button">Icon</button>
     </section>
-    <section>
+
+    <section class="secondary-menu">
       <h1>Front-end Web Developer</h1>
-      <h2>Denver, CO <span>Preview this post</span></h2>
-      <button>Open</button>
-      <button>Flag</button>
-      <button>Edit</button>
-      <button>Trash</button>
-      <ul>
-        <li>SUMMARY</li>
-        <li>APPLICANTS</li>
-        <li>JOB BOARD</li>
-        <li>INTERVIEWS</li>
-        <li>ACTIVITY</li>
-        <li>BROADCAST</li>
-        <li>NOTIFICATIONS</li>
+      <h2>Denver, CO  * <span class="preview"> Preview this post</span></h2>
+
+      <div class="secondary-menu-button-div">
+        <button class="secondary-menu-button open">Open</button>
+        <button class="secondary-menu-button">Flag</button>
+        <button class="secondary-menu-button">Edit</button>
+        <button class="secondary-menu-button">Trash</button>
+      </div>
+
+      <ul class="secondary-menu-list">
+        <li class="always-display-list-item active-tab">SUMMARY</li>
+        <li class="always-display-list-item">APPLICANTS</li>
+        <li class="always-display-list-item">JOB BOARD</li>
+        <li class="always-display-list-item">INTERVIEWS</li>
+        <li class="always-display-list-item">MORE...</li>
+        <li class="mobile-hide-list-item">ACTIVITY</li>
+        <li class="mobile-hide-list-item">BROADCAST</li>
+        <li class="mobile-hide-list-item">NOTIFICATIONS</li>
       </ul>
     </section>
+
   </header>
 
   <aside>
@@ -72,13 +80,15 @@
       </ul>
     </section>
   </aside>
-  <section>
+
+  <section class="graph-area">
     Graph Area
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <img src="" class="graph-one" alt="graph one" />
+    <img src="" class="graph-two" alt="graph two" />
+    <img src="" class="graph-three" alt="graph three" />
+    <img src="" class="graph-four" alt="graph four" />
   </section>
+
   <main>
     <h2>Job Description</h2>
     <button>Edit</button>
@@ -109,12 +119,11 @@
     <p>
       <h3>Use the Button Widget</h3>
       <input type="text" placeholder="<script type='text/javascript' src=''><script>" />
-
       <button>Copy</button>
     </p>
     <p>
       <h3>Upload Resumes by Email</h3>
-      <input type="text" placeholder="someone@email.com"/>
+      <input type="text" placeholder="someone@email.com" />
     </p>
   </footer>
 

@@ -6,6 +6,114 @@ html {
   box-sizing: inherit;
 }
 
+/* UNIVERSAL STYLES */
+
 body {
-  background-color: rgb(84, 153, 251);
+  background-color: white;
+  font-size: 1em;
+}
+
+button {
+  background-color: white;
+}
+/* HEADER STYLES */
+
+.header-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-menu-input {
+  flex-grow: 5;
+  font-size: 2em;
+  height: 120px;
+  padding-left: 10px;
+  border: 1px solid gray;
+}
+
+.header-menu-button {
+  flex-grow: 1;
+  font-size: 2em;
+  background-color: white;
+  height: 120px;
+  width: 80px;
+  border: 1px solid gray;
+}
+
+/* SECONDARY MENU STYLES */
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h1,
+h2 {
+  margin: 30px 0 0 20px;
+}
+
+.preview {
+  color: rgb(70, 123, 230);
+}
+
+.secondary-menu-button-div {
+  margin: 20px;
+}
+
+.secondary-menu-button {
+  border: 1px solid gray;
+  font-size: 2em;
+  border-radius: 50%;
+  height: 100px;
+  margin: 0 25px;
+  width: 100px;
+}
+
+.open {
+  width: 200px;
+  border-radius: 50px;
+}
+
+.secondary-menu-list {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+  margin: 30px 0;
+  padding: 0 10px;
+}
+
+.secondary-menu-list li {
+  padding-bottom: 20px;
+}
+
+.active-tab {
+  border-bottom: 4px solid blue;
+}
+
+.mobile-hide-list-item {
+  display: none;
+}
+
+/* ASIDE STYLES */
+
+aside {
+  display: none;
+}
+
+/* GRAPH STYLES */
+
+.graph-area {
+  background-color: rgb(196, 194, 191);
+  font-size: 2em;
+  height: 300px;
+}
+
+.graph-two,
+.graph-three,
+.graph-four {
+  display: none;
 }
