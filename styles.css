@@ -10,6 +10,7 @@ html {
 
 body {
   background-color: white;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
 }
 
@@ -82,7 +83,7 @@ h2 {
   display: flex;
   font-size: 30px;
   justify-content: space-between;
-  margin: 30px 0;
+  margin-top: 30px;
   padding: 0 10px;
 }
 
@@ -107,13 +108,32 @@ aside {
 /* GRAPH STYLES */
 
 .graph-area {
-  background-color: rgb(196, 194, 191);
+  background-color: rgb(220, 220, 220);
   font-size: 2em;
-  height: 300px;
+  height: 400px;
 }
 
+.graph-caption {
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 40px;
+  height: 70px;
+  padding: 20px 20px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.graph-one,
 .graph-two,
 .graph-three,
-.graph-four {
+.mobile-hide-caption {
   display: none;
+}
+
+.graph-four {
+  height: 200px;
+  background-color: rgb(42, 106, 134);
+  width: 60%;
+  margin: 40px 20%;
 }
