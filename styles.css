@@ -18,11 +18,16 @@ button {
   background-color: white;
 }
 
+/*  #9DA3B0*/
+
 /* HEADER STYLES */
 
 .header-menu {
   display: flex;
-  justify-content: space-around;
+}
+
+.blue {
+  background-color: #15a5fb;
 }
 
 .header-menu-input {
@@ -50,22 +55,21 @@ h2 {
   margin: 10px 0 10px 10px;
 }
 
-
 .preview {
-  color: rgb(70, 123, 230);
+  color: #15a5fb;
 }
 
 .secondary-menu-button-div {
-  margin: 20px 5px;
+  margin: 10px 0 10px 10px;
 }
 
 .secondary-menu-button {
   border-radius: 50%;
   border: 1px solid gray;
-  font-size: .8em;
-  height: 50px;
+  font-size: .7em;
+  height: 45px;
   margin: 0 5px;
-  width: 50px;
+  width: 45px;
 }
 
 .open {
@@ -80,11 +84,11 @@ h2 {
 }
 
 .secondary-menu-list li {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .active-tab {
-  border-bottom: 4px solid blue;
+  border-bottom: 4px solid #15a5fb;
 }
 
 .mobile-hide-list-item {
@@ -101,6 +105,7 @@ aside {
 
 .graph-area {
   background-color: rgb(220, 220, 220);
+  border-bottom: 1px solid grey;
   height: 120px;
 }
 
@@ -118,7 +123,7 @@ aside {
 
 .graph-four {
   height: 70px;
-  background-color: rgb(42, 106, 134);
+  background-color: #15a5fb;
   width: 200px;
   margin: 10px 0;
 }
@@ -138,3 +143,5 @@ aside {
 .mobile-hide-caption {
   display: none;
 }
+
+/* JOB DESCRIPTION STYLES */
