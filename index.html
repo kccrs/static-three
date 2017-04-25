@@ -7,19 +7,17 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <header>
-
     <section class="header-menu">
       <button class="header-menu-button">
-        <img src="./images/hamburger-menu.svg" alt="Hamburger menu icon">
+        <img src="./images/hamburger-menu.svg" class="hamburger-menu-button" alt="Hamburger menu icon">
       </button>
       <input type="text" placeholder="Search for a job, task, or resume" class="header-menu-input" />
       <button class="header-menu-button blue">
         <img src="./images/add-user.svg" alt="Add user icon">
       </button>
       <button class="header-menu-button">
-        <img src="./images/calendar.svg" alt="Hamburger menu image">
+        <img src="./images/calendar.svg" alt="Calendar menu icon">
       </button>
       <button class="header-menu-button">
         <img src="./images/nine-squares.svg" alt="Nine squares menu icon">
@@ -28,13 +26,27 @@
 
     <section class="secondary-menu">
       <h1>Front-end Web Developer</h1>
-      <h2>Denver, CO  * <span class="preview"> Preview this post</span></h2>
+      <h2>
+        <img src="./images/location.svg" class="location-icon" alt="Location indicator icon">
+        <span class="denver"> Denver, CO * </span>
+        <span class="preview">
+          Preview this post
+        </span>
+      </h2>
 
       <div class="secondary-menu-button-div">
-        <button class="secondary-menu-button open">Open</button>
-        <button class="secondary-menu-button">Flag</button>
-        <button class="secondary-menu-button">Edit</button>
-        <button class="secondary-menu-button">Trash</button>
+        <button class="secondary-menu-button open-button">
+          <span class="open">OPEN</span>
+        </button>
+        <button class="secondary-menu-button secondary-icon bookmark">
+          <img src="./images/bookmark.svg" alt="Icon of a bookmark">
+        </button>
+        <button class="secondary-menu-button secondary-icon pencil">
+          <img src="./images/pencil.svg" alt="Icon of a pencil">
+        </button>
+        <button class="secondary-menu-button secondary-icon trash">
+          <img src="./images/trashcan.svg" alt="Icon of a trashcan">
+        </button>
       </div>
 
       <ul class="secondary-menu-list">

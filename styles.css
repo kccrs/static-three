@@ -10,6 +10,7 @@ html {
 
 body {
   background-color: white;
+  color: #6A6B70;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
 }
@@ -52,16 +53,32 @@ button {
   width: auto;
 }
 
+.hamburger-menu-button {
+  margin-left: -5px;
+}
+
 /* SECONDARY MENU STYLES */
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 0.8em;
+}
+
+h2 span {
+  padding: 0 8px;
 }
 
 h1,
 h2 {
-  margin: 10px 0 10px 10px;
+  margin: 8px 0 5px 10px;
+}
+
+.location-icon {
+  max-height: 15px;
 }
 
 .preview {
@@ -69,27 +86,42 @@ h2 {
 }
 
 .secondary-menu-button-div {
-  margin: 10px 0 10px 10px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .secondary-menu-button {
   border-radius: 50%;
   border: 1px solid gray;
-  font-size: .7em;
-  height: 45px;
-  margin: 0 5px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
 }
 
-.open {
+.open-button {
   border-radius: 30px;
   width: 100px;
+}
+
+.open::before {
+  content: '';
+  display: inline-block;
+  background-color: #8BC745;
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.secondary-icon img {
+  height: 20px;
 }
 
 .secondary-menu-list {
   display: flex;
   font-size: .65em;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .secondary-menu-list li {
