@@ -17,6 +17,31 @@ button {
   background-color: white;
 }
 
+img {
+  max-height: 15px;
+}
+
+.header-menu-input,
+.header-menu-button,
+.secondary-menu-button,
+.graph-caption {
+  border: 1px solid gray;
+}
+
+
+/* HIDDEN ON MOBILE */
+
+.mobile-hide-list-item,
+.copy-button,
+.social-media-text,
+.graph-one,
+.graph-two,
+.graph-three,
+aside,
+footer input {
+  display: none;
+}
+
 /* HEADER STYLES */
 
 .header-menu {
@@ -29,23 +54,15 @@ button {
 
 .header-menu-input {
   background: url(./images/magnifying-glass.svg) no-repeat;
-  border: 1px solid gray;
   flex-grow: 5;
-  max-height: 40px;
   padding-left: 7%;
   text-overflow: ellipsis;
   background-position: 5px;
 }
 
 .header-menu-button {
-  border: 1px solid gray;
   flex-grow: 1;
-  font-size: 1em;
   height: 40px;
-}
-
-.header-menu-button img {
-  max-height: 15px;
 }
 
 .hamburger-menu-button {
@@ -72,10 +89,6 @@ h2 {
   margin: 8px 0 5px 10px;
 }
 
-.location-icon {
-  max-height: 15px;
-}
-
 .preview {
   color: #15a5fb;
 }
@@ -83,15 +96,14 @@ h2 {
 .secondary-menu-button-div {
   align-items: center;
   display: flex;
-  height: 60px;
+  height: 50px;
   justify-content: space-around;
 }
 
 .secondary-menu-button {
   border-radius: 50%;
-  border: 1px solid gray;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
 }
 
 .open-button {
@@ -109,10 +121,6 @@ h2 {
   width: 10px;
 }
 
-.secondary-icon img {
-  height: 20px;
-}
-
 .secondary-menu-list {
   display: flex;
   font-size: .65em;
@@ -125,16 +133,6 @@ h2 {
 
 .active-tab {
   border-bottom: 4px solid #15a5fb;
-}
-
-.mobile-hide-list-item {
-  display: none;
-}
-
-/* ASIDE STYLES */
-
-aside {
-  display: none;
 }
 
 /* GRAPH STYLES */
@@ -150,13 +148,6 @@ aside {
   justify-content: center;
 }
 
-.graph-one,
-.graph-two,
-.graph-three,
-.mobile-hide-caption {
-  display: none;
-}
-
 .graph-four {
   background-color: #15a5fb;
   height: 70px;
@@ -167,7 +158,6 @@ aside {
 .graph-caption {
   background-color: white;
   border-radius: 40px;
-  border: 2px solid gray;
   display: block;
   height: 25px;
   margin: 0 auto;
@@ -197,10 +187,6 @@ footer {
   margin: 5px 0;
 }
 
-.social-media-icon {
-  height: 20px;
-}
-
 .facebook {
   background-color: #4A6FC0;
 }
@@ -211,10 +197,6 @@ footer {
 
 .linkedin {
   background-color: #037FBB;
-}
-
-.social-media-text {
-  display: none;
 }
 
 .secondary-footer {
@@ -234,16 +216,10 @@ footer h3 {
 }
 
 footer img {
-  height: 15px;
   margin: 0 auto;
 }
 
-footer input {
-  display: none;
-}
-
-.copy-button {
+/*.copy-button {
   background-color: #45BABD;
   color: white;
-  display: none;
-}
+}*/
