@@ -9,17 +9,13 @@ html {
 /* UNIVERSAL STYLES */
 
 body {
-  background-color: white;
   color: #6A6B70;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
 }
 
 button {
   background-color: white;
 }
-
-/*  #9DA3B0*/
 
 /* HEADER STYLES */
 
@@ -33,12 +29,12 @@ button {
 
 .header-menu-input {
   background: url(./images/magnifying-glass.svg) no-repeat;
-  background-position: 5px;
   border: 1px solid gray;
   flex-grow: 5;
   max-height: 40px;
   padding-left: 7%;
   text-overflow: ellipsis;
+  background-position: 5px;
 }
 
 .header-menu-button {
@@ -50,7 +46,6 @@ button {
 
 .header-menu-button img {
   max-height: 15px;
-  width: auto;
 }
 
 .hamburger-menu-button {
@@ -86,10 +81,10 @@ h2 {
 }
 
 .secondary-menu-button-div {
-  height: 60px;
-  display: flex;
-  justify-content: space-around;
   align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
 }
 
 .secondary-menu-button {
@@ -105,13 +100,13 @@ h2 {
 }
 
 .open::before {
+  background-color: #8BC745;
+  border-radius: 50%;
   content: '';
   display: inline-block;
-  background-color: #8BC745;
+  height: 10px;
   margin-right: 5px;
   width: 10px;
-  height: 10px;
-  border-radius: 50%;
 }
 
 .secondary-icon img {
@@ -145,7 +140,7 @@ aside {
 /* GRAPH STYLES */
 
 .graph-area {
-  background-color: rgb(220, 220, 220);
+  background-color: #EDF2F6;
   border-bottom: 1px solid grey;
   height: 120px;
 }
@@ -163,22 +158,22 @@ aside {
 }
 
 .graph-four {
-  height: 70px;
   background-color: #15a5fb;
-  width: 200px;
+  height: 70px;
   margin: 10px 0;
+  width: 200px;
 }
 
 .graph-caption {
   background-color: white;
-  border: 2px solid gray;
   border-radius: 40px;
+  border: 2px solid gray;
   display: block;
   height: 25px;
-  padding-top: 4px;
-  width: 50%;
   margin: 0 auto;
+  padding-top: 4px;
   text-align: center;
+  width: 50%;
 }
 
 .mobile-hide-caption {
@@ -186,3 +181,69 @@ aside {
 }
 
 /* JOB DESCRIPTION STYLES */
+
+
+/* FOOTER STYLES */
+
+footer {
+  background-color: #EDF2F6;
+}
+
+.social-media-section {
+  display: grid;
+  grid-column-gap: 3px;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 35px;
+  margin: 5px 0;
+}
+
+.social-media-icon {
+  height: 20px;
+}
+
+.facebook {
+  background-color: #4A6FC0;
+}
+
+.twitter {
+  background-color: #00A8EF;
+}
+
+.linkedin {
+  background-color: #037FBB;
+}
+
+.social-media-text {
+  display: none;
+}
+
+.secondary-footer {
+  display: flex;
+  height: 50px;
+}
+
+.footer-links {
+  font-weight: bold;
+  text-align: center;
+  width: 33%;
+}
+
+footer h3 {
+  font-size: .7em;
+  margin-top: 2px;
+}
+
+footer img {
+  height: 15px;
+  margin: 0 auto;
+}
+
+footer input {
+  display: none;
+}
+
+.copy-button {
+  background-color: #45BABD;
+  color: white;
+  display: none;
+}
